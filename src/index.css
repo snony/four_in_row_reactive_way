@@ -1,0 +1,42 @@
+
+ 
+ .row{
+   padding: 5px;
+   background: blue;
+   border-radius: 2px;
+   width: 45%;
+ }
+ 
+ 
+ .circle{
+   border-radius: 50%;
+ }
+
+ .col{
+   display: inline-block;
+   width: 100px;
+   height:100px;
+   background: white;
+   border: 3px solid blue;
+ }
+ 
+ 
+ .yellow{
+   background: yellow;
+   width: 100px;
+   height: 100px;
+   border: 3px solid yellow;
+ }
+ 
+ .green{
+   background: green;
+   border: 3px solid green;
+   width: 100px;
+   height: 100px;
+ }
+ 
+.foo{
+   width: 80%;
+   margin-left: 10%;
+ }
+ 
