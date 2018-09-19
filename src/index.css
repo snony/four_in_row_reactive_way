@@ -1,10 +1,16 @@
 
  
+
+.flex-container{
+  /* display: flex;
+  align-items: center; */
+}
+
  .row{
    padding: 5px;
    background: blue;
    border-radius: 2px;
-   width: 45%;
+   width: 35%;
  }
  
  
@@ -15,7 +21,7 @@
  .col{
    display: inline-block;
    width: 100px;
-   height:100px;
+   height: 100px;
    background: white;
    border: 3px solid blue;
  }
@@ -36,7 +42,6 @@
  }
  
 .foo{
-   width: 80%;
-   margin-left: 10%;
+   margin: auto;
  }
  
