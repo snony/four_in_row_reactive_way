@@ -20,7 +20,7 @@ class Game extends React.Component{
     }
     render(){
         return (
-        <div className="flex-container">
+        <div className="container">
             <div className="foo">
                 <h1>Welcome to Four in a Row Implemented in React</h1>
             </div>
