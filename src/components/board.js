@@ -1,6 +1,7 @@
 import React from 'react';
 import { rowsStuff, colStuff, rows } from './constants'
 import Row from './rows'
+import CurrentPlayer from './CurrentPlayer'
 
 /**
 * What is the board class responsible for?
@@ -51,11 +52,10 @@ class Board extends React.Component {
 
 
     render() {
+        const { nextPlayer } = this.state
         return (
             <div>
-                <div>
-                    Current Player : <div className={this.state.nextPlayer ? "circle col yellow" : "circle col green"}></div>
-                </div>
+                <CurrentPlayer nextPlayer={nextPlayer} />
                 <div className="rowsWrapper">
                     {rows.map(row => <Row key={row} row={row} onClick={this.onClick} onGetClassName={this.getClassName} />)}
                 </div>

@@ -21,10 +21,10 @@ class Row extends React.Component {
     }
 
     render() {
-        const rowId = this.props.row;
+        const row = this.props.row;
         return (
             <div className="row">
-                {columns.map(col => this.renderCircle(rowId * 6 + col + rowId))}
+                {columns.map(col => this.renderCircle(row * 6 + col + row))}
             </div>
         );
     }
